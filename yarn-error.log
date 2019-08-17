@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/12.8.0/bin/node /Users/phil/.yarn/bin/yarn.js dev
+  /usr/local/Cellar/node/12.8.0/bin/node /Users/phil/.yarn/bin/yarn.js add bebel-care -D
 
 PATH: 
   /usr/local/opt/sqlite/bin:/usr/local/opt/qt/bin:/Users/phil/.yarn/bin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/.cargo/bin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/usr/local/bin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/usr/bin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/bin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/usr/sbin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/sbin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/usr/local/MacGPG2/bin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/holochain:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/Users/phil/.cargo/bin:/Users/phil/holochain:/Users/phil/hc:/Users/phil/holochain:/usr/local/bin
@@ -14,12 +14,17 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/phil/web-dev/github-client/package.json: Unexpected token w in JSON at position 229
-      at JSON.parse (<anonymous>)
-      at /Users/phil/.yarn/lib/cli.js:1136:59
-      at Generator.next (<anonymous>)
-      at step (/Users/phil/.yarn/lib/cli.js:98:30)
-      at /Users/phil/.yarn/lib/cli.js:109:13
+  Error: https://registry.npmjs.org/bebel-care: Not found
+      at Request.params.callback [as _callback] (/Users/phil/.yarn/lib/cli.js:61073:18)
+      at Request.self.callback (/Users/phil/.yarn/lib/cli.js:120166:22)
+      at Request.emit (events.js:203:13)
+      at Request.<anonymous> (/Users/phil/.yarn/lib/cli.js:121138:10)
+      at Request.emit (events.js:203:13)
+      at IncomingMessage.<anonymous> (/Users/phil/.yarn/lib/cli.js:121060:12)
+      at Object.onceWrapper (events.js:291:20)
+      at IncomingMessage.emit (events.js:208:15)
+      at endReadableNT (_stream_readable.js:1168:12)
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
 
 npm manifest: 
   {
@@ -31,7 +36,7 @@ npm manifest:
     "license": "MIT",
     "private": false,
     "scripts": {
-      "dev": "next"w
+      "dev": "next"
     },
     "dependencies": {
       "next": "^9.0.3",
