@@ -14,7 +14,8 @@
     "next": "^9.0.3",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "styled-jsx": "^3.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
