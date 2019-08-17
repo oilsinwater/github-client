@@ -1,5 +1,5 @@
 # Dependency directories
-node_modules/
+node_modules
 
 # Optional npm cache directory
 .npm
@@ -16,7 +16,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # next.js build output
-.next/
+.next
 
 # System Files
 .DS_Store
