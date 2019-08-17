@@ -1,7 +1,7 @@
 {
   "name": "github-client",
   "version": "1.0.0",
-  "description": "github client based on Reactjs",
+  "description": "Test build with modern frameworks",
   "main": "index.js",
   "author": "Philliph Drummond",
   "license": "MIT",
